@@ -10,16 +10,21 @@
 
 <main class="main">
     <header class="header" style='background-image: url("./images/bgPhone.jpg");'>
-        <div class="navigate">
-            <img class="logo-header" src="./icons/logoHeader.svg" alt="logo">
-            <nav class="wrapper-nav-bar">
-                <ul class="nav-bar">
-                    <li class="nav-bar__item">ASGROUP</li>
-                    <li class="nav-bar__item">ФУНКЦИОНАЛ</li>
-                    <li class="nav-bar__item">КАК РАБОТАТЬ С МАГАЗИНАМИ</li>
-                    <li class="nav-bar__item">ПАРТНЁРЫ</li>
-                </ul>
-            </nav>
+        <div class="wrapper-navigate">
+            <div class="navigate">
+                <img class="logo-header" src="./icons/logoHeader.svg" alt="logo">
+                <nav class="wrapper-nav-bar">
+                    <ul class="nav-bar">
+                        <li class="nav-bar__item">ASGROUP</li>
+                        <li class="nav-bar__item">ФУНКЦИОНАЛ</li>
+                        <li class="nav-bar__item">КАК РАБОТАТЬ С МАГАЗИНАМИ</li>
+                        <li class="nav-bar__item">ПАРТНЁРЫ</li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+
+        <div class="wrapper-phone">
             <div class="phone"></div>
         </div>
 
@@ -29,9 +34,11 @@
                 <h1 class="presentation__title-main"><span class="presentation__title-main_allocation">УНИВЕРСАЛЬНОЕ</span>
                     ПРИЛОЖЕНИЕ
                     ДЛЯ МАСТЕРОВ</h1>
-                <div class="presentation__wrapper-master">
-                    <h4 class="presentation__title-master">Всё продумано до мелочей -</h4>
-                    <h4 class="presentation__title-master">чтобы Вам было удобно вести работу</h4>
+                <div class="wrapper-animation">
+                    <div class="presentation__wrapper-master">
+                        <h4 class="presentation__title-master">Всё продумано до мелочей -</h4>
+                        <h4 class="presentation__title-master">чтобы Вам было удобно вести работу</h4>
+                    </div>
                 </div>
             </div>
             <div class="presentation__phone"></div>
@@ -46,38 +53,57 @@
             <img class="about-company__logo" src="./icons/BigLogo.svg" alt="logo">
         </div>
         <div class="about-company__description">
-            <div class="about-company__first-block-description">
-                <span class="about-company__first-block-description_allocation">ASGROUP</span>
-                - одна из лидирующих строительных компаний новосибирска
+            <div class="wrapper-animation">
+                <div class="about-company__first-block-description">
+                    <span class="about-company__first-block-description_allocation">ASGROUP</span>
+                    - одна из лидирующих строительных компаний новосибирска
+                </div>
             </div>
             <div class="about-company__wrapper-history">
                 <div class="about-company__history-item">> 10 ЛЕТ В СФЕРЕ</div>
                 <div class="about-company__history-item">> 450 ДИЗАЙН-ПРОЕКТОВ</div>
                 <div class="about-company__history-item">> 1500 ОБЪЕКТОВ ЗАВЕРШЕНО</div>
             </div>
-            <div class="about-company__second-block-description">
-                Приложение создаётся мастерами для мастеров, поэтому в нём всё продумано для
-                <span class="about-company__second-block-description_allocation">удобной</span> и
-                <span class="about-company__second-block-description_allocation">выгодной</span>
-                работы пользователей от заявки до сдачи заказа клиенту
+            <div class="wrapper-animation">
+                <div class="about-company__second-block-description">
+                    Приложение создаётся мастерами для мастеров, поэтому в нём всё продумано для
+                    <span class="about-company__second-block-description_allocation">удобной</span> и
+                    <span class="about-company__second-block-description_allocation">выгодной</span>
+                    работы пользователей от заявки до сдачи заказа клиенту
+                </div>
             </div>
         </div>
     </div>
 
     <div class="slider">
-        <div class="slider-line">
+        <div class="slider-line" style="left: 0px">
 
             <div class="functional bg1">
                 <div class="functional__wrapper-description">
                     <div class="functional__wrapper-description-normalize">
                         <h2 class="functional__title">ФУНКЦИОНАЛ</h2>
                         <p class="functional__description">ПРИЛОЖЕНИЕ ПОМОЖЕТ ВАМ В РАБОТЕ<br> ОТ ЗАЯВКИ ДО ДОГОВОРА</p>
-                        <div class="functional__button">ПОСМОТРИТЕ САМИ</div>
+
+                        <div class="animation-scroll">
+                            <div class="animation-scroll-line">
+                                <div class="functional__wrapper-button">
+                                    <div class="functional__button blue">ПОСМОТРИТЕ&nbsp;САМИ</div>
+                                    <img class="functional__array" src="./icons/ArrowBlue.svg" alt="array">
+                                </div>
+                                <div class="functional__wrapper-button">
+                                    <div class="functional__button">ПОСМОТРИТЕ&nbsp;САМИ</div>
+                                    <img class="functional__array" src="./icons/ArrowBlack.svg" alt="array">
+                                </div>
+                            </div>
+                        </div>
+
                     </div>
                 </div>
                 <div class="functional__wrapper-phone">
                     <div class="functional-phone-bg">
-                        <div class="functional-phone"></div>
+                        <div class="functional-phone">
+                            <img class="functional-phone-img logoPhone" src="./icons/logoPhone.svg" alt="slide">
+                        </div>
                     </div>
 
                     <div class="functional-phone-bg phone2">
@@ -100,7 +126,20 @@
                         <h2 class="functional__title">ДОГОВОРИТЕСЬ С КЛИЕНТОМ</h2>
                         <p class="functional__description">
                             СОЗДАЙТЕ ЗАКАЗ, ВВЕДИТЕ АДРЕС И<br> УСТАНОВИТЕ ДАТУ ЗАМЕРА, А ПРИЛОЖЕНИЕ<br> ОПОВЕСТИТ ВАС О ВСТРЕЧЕ</p>
-                        <div class="functional__button">ПОСМОТРИТЕ САМИ</div>
+
+                        <div class="animation-scroll fixed-button">
+                            <div class="animation-scroll-line">
+                                <div class="functional__wrapper-button">
+                                    <div class="functional__button blue">ДАЛЕЕ</div>
+                                    <img class="functional__array" src="./icons/ArrowBlue.svg" alt="array">
+                                </div>
+                                <div class="functional__wrapper-button">
+                                    <div class="functional__button">ДАЛЕЕ</div>
+                                    <img class="functional__array" src="./icons/ArrowBlack.svg" alt="array">
+                                </div>
+                            </div>
+                        </div>
+
                     </div>
                 </div>
                 <div class="functional__wrapper-phone">
@@ -129,7 +168,20 @@
                     <div class="functional__wrapper-description-normalize">
                         <h2 class="functional__title">ПРИЕЗЖАЙТЕ<br> НА ЗАМЕР</h2>
                         <p class="functional__description">ДОБАВЛЯЙТЕ ПОМЕЩЕНИЯ, УКАЗЫВАЙТЕ ИХ<br> ПАРАМЕТРЫ, КОЛИЧЕСТВО ОКОН, ДВЕРЕЙ<br> И ДОПОЛНИТЕЛЬНЫХ УГЛОВ</p>
-                        <div class="functional__button">ПОСМОТРИТЕ САМИ</div>
+
+                        <div class="animation-scroll fixed-button">
+                            <div class="animation-scroll-line">
+                                <div class="functional__wrapper-button">
+                                    <div class="functional__button blue">ДАЛЕЕ</div>
+                                    <img class="functional__array" src="./icons/ArrowBlue.svg" alt="array">
+                                </div>
+                                <div class="functional__wrapper-button">
+                                    <div class="functional__button">ДАЛЕЕ</div>
+                                    <img class="functional__array" src="./icons/ArrowBlack.svg" alt="array">
+                                </div>
+                            </div>
+                        </div>
+
                     </div>
                 </div>
                 <div class="functional__wrapper-phone">
@@ -158,7 +210,20 @@
                     <div class="functional__wrapper-description-normalize">
                         <h2 class="functional__title">ВЫБИРАЙТЕ РАБОТЫ<br> И МАТЕРИАЛЫ</h2>
                         <p class="functional__description">РАБОТЫ РАЗДЕЛЕНЫ ПО ЭТАПАМ.<br> ВЫБИРАЙТЕ МАТЕРИАЛЫ, ВВОДИТЕ<br> КОЛИЧЕСТВО, РАССЧИТЫВАЙТЕ СТОИМОСТЬ</p>
-                        <div class="functional__button">ПОСМОТРИТЕ САМИ</div>
+
+                        <div class="animation-scroll fixed-button">
+                            <div class="animation-scroll-line">
+                                <div class="functional__wrapper-button">
+                                    <div class="functional__button blue">ДАЛЕЕ</div>
+                                    <img class="functional__array" src="./icons/ArrowBlue.svg" alt="array">
+                                </div>
+                                <div class="functional__wrapper-button">
+                                    <div class="functional__button">ДАЛЕЕ</div>
+                                    <img class="functional__array" src="./icons/ArrowBlack.svg" alt="array">
+                                </div>
+                            </div>
+                        </div>
+
                     </div>
                 </div>
                 <div class="functional__wrapper-phone">
@@ -181,13 +246,18 @@
                     </div>
                 </div>
             </div>
+
         </div>
     </div>
 
     <div class="faq">
-        <h2 class="faq__title">КАК РАБОТАТЬ<br> С МАГАЗИНАМИ</h2>
-        <p class="faq__paragraph">ПОКУПАЙТЕ В МАГАЗИНАХ НАШИХ ПАРТНЁРОВ<br>
-            С ПРИЛОЖЕНИЕМ ASGROUP И ПОЛУЧАЙТЕ СКИДКИ</p>
+        <div class="wrapper-animation">
+            <h2 class="faq__title">КАК РАБОТАТЬ<br> С МАГАЗИНАМИ</h2>
+        </div>
+        <div class="wrapper-animation">
+            <p class="faq__paragraph">ПОКУПАЙТЕ В МАГАЗИНАХ НАШИХ ПАРТНЁРОВ<br>
+                С ПРИЛОЖЕНИЕМ ASGROUP И ПОЛУЧАЙТЕ СКИДКИ</p>
+        </div>
 
         <div class="faq-content">
             <div class="faq-content__first-column">
@@ -199,7 +269,9 @@
             </div>
 
             <div class="faq-content__line">
-                <img src="./icons/line.svg" alt="line">
+                <div class="wrapper-line-blue">
+                    <div class="line-blue"></div>
+                </div>
             </div>
 
             <div class="faq-content__second-column">
@@ -219,7 +291,8 @@
             <div class="partners__normalize">
                 <h2 class="title-partners">ПАРТНЕРЫ</h2>
                 <p class="paragraph-partners">НАВЕДИТЕ КУРСОР НА ЛОГО, ЧТОБЫ<br> УЗНАТЬ ПОДРОБНЕЕ
-                    О <span class="paragraph-partners-allocation">ПРОГРАММЕ</span><br><span class="paragraph-partners-allocation">ЛОЯЛЬНОСТИ</span> ИНТЕРЕСУЮЩЕГО<br> МАГАЗИНА</p>
+                    О <span class="paragraph-partners-allocation">ПРОГРАММЕ</span><br><span class="paragraph-partners-allocation">ЛОЯЛЬНОСТИ</span> ИНТЕРЕСУЮЩЕГО<br> 
+                    <span class="wrapper-array-partners">МАГАЗИНА <img class="array-partners" src="./icons/ArrowBlack.svg" alt=""></span></p>
 
                 <p class="paragraph-partners replaceable-content">описание программы лояльности<br>
                     описание программы лояльности<br>
