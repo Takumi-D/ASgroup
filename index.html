@@ -15,10 +15,10 @@
                 <img class="logo-header" src="./icons/logoHeader.svg" alt="logo">
                 <nav class="wrapper-nav-bar">
                     <ul class="nav-bar">
-                        <li class="nav-bar__item">ASGROUP</li>
-                        <li class="nav-bar__item">ФУНКЦИОНАЛ</li>
-                        <li class="nav-bar__item">КАК РАБОТАТЬ С МАГАЗИНАМИ</li>
-                        <li class="nav-bar__item">ПАРТНЁРЫ</li>
+                        <li class="nav-bar__item"><a class="link" href="#ASGROUP">ASGROUP</a></li>
+                        <li class="nav-bar__item"><a class="link" href="#functional">ФУНКЦИОНАЛ</a></li>
+                        <li class="nav-bar__item"><a class="link" href="#faq">КАК РАБОТАТЬ С МАГАЗИНАМИ</a></li>
+                        <li class="nav-bar__item"><a class="link" href="#partners">ПАРТНЁРЫ</a></li>
                     </ul>
                 </nav>
             </div>
@@ -48,7 +48,7 @@
         </div>
     </header>
 
-    <div class="about-company">
+    <div id="ASGROUP" class="about-company">
         <div class="about-company__wrapper-logo">
             <img class="about-company__logo" src="./icons/BigLogo.svg" alt="logo">
         </div>
@@ -75,7 +75,7 @@
         </div>
     </div>
 
-    <div class="slider">
+    <div id="functional" class="slider">
         <div class="slider-line" style="left: 0px">
 
             <div class="functional bg1">
@@ -108,7 +108,7 @@
 
                     <div class="functional-phone-bg phone2">
                         <div class="functional-phone">
-                            <img class="functional-phone-img" src="./images/ordersSlide1.png" alt="slide">
+                            <img class="functional-phone-img orders-slide slide1" src="./images/ordersSlide1.png" alt="slide">
                         </div>
                     </div>
 
@@ -142,9 +142,13 @@
                     </div>
                 </div>
                 <div class="functional__wrapper-phone">
-                    <div class="functional-phone-bg">
-                        <div class="functional-phone">
-                            <img class="functional-phone-img" src="./images/ordersSlide1.png" alt="slide">
+                    <div class="functional-phone-bg orders-slide-bg">
+                        <div class="functional-phone orders-slide">
+                            <div class="wrapper-circle">
+                                <div class="circle">
+                                    <div class="blur-circle"></div>
+                                </div>
+                            </div>
                         </div>
                     </div>
 
@@ -184,9 +188,13 @@
                     </div>
                 </div>
                 <div class="functional__wrapper-phone">
-                    <div class="functional-phone-bg">
-                        <div class="functional-phone">
-                            <img class="functional-phone-img" src="./images/measurementsSlide1.png" alt="slide">
+                    <div class="functional-phone-bg functional-measurements">
+                        <div class="functional-phone measurements-slide">
+                            <div class="wrapper-circle measurements-circle">
+                                <div class="circle">
+                                    <div class="blur-circle"></div>
+                                </div>
+                            </div>
                         </div>
                     </div>
 
@@ -226,9 +234,13 @@
                     </div>
                 </div>
                 <div class="functional__wrapper-phone">
-                    <div class="functional-phone-bg">
-                        <div class="functional-phone">
-                            <img class="functional-phone-img" src="./images/measurementsSlide1.png" alt="slide">
+                    <div class="functional-phone-bg functional-measurements">
+                        <div class="functional-phone measurements-slide">
+                            <div class="wrapper-circle measurements-circle">
+                                <div class="circle">
+                                    <div class="blur-circle"></div>
+                                </div>
+                            </div>
                         </div>
                     </div>
 
@@ -249,7 +261,7 @@
         </div>
     </div>
 
-    <div class="faq">
+    <div id="faq" class="faq">
         <div class="wrapper-animation">
             <h2 class="faq__title">КАК РАБОТАТЬ<br> С МАГАЗИНАМИ</h2>
         </div>
@@ -285,47 +297,96 @@
         </div>
     </div>
 
-    <div class="partners">
+    <div id="partners" class="partners">
         <div class="partners__description">
             <div class="partners__normalize">
-                <h2 class="title-partners">ПАРТНЕРЫ</h2>
+                <div class="title-partners">ПАРТНЕРЫ</div>
                 <p class="paragraph-partners">НАВЕДИТЕ КУРСОР НА ЛОГО, ЧТОБЫ<br> УЗНАТЬ ПОДРОБНЕЕ
                     О <span class="paragraph-partners-allocation">ПРОГРАММЕ</span><br><span class="paragraph-partners-allocation">ЛОЯЛЬНОСТИ</span> ИНТЕРЕСУЮЩЕГО<br> 
                     <span class="wrapper-array-partners">МАГАЗИНА <img class="array-partners" src="./icons/ArrowBlack.svg" alt=""><img class="array-partners-bottom" src="./icons/ArrowBottom.svg" alt=""></span></p>
-
-                <p class="paragraph-partners replaceable-content">описание программы лояльности<br>
-                    описание программы лояльности<br>
-                    описание программы лояльности<br>
-                    описание программы лояльности</p>
             </div>
         </div>
         <div class="partners__tile">
             <div class="item-tile">
                 <img class="item-tile-img" src="./icons/item-partners.svg" alt="item-tile">
+                <h2 class="title-partners replaceable-content-title">ПАРТНЕРЫ789</h2>
+                <p class="paragraph-partners replaceable-content">описание программы лояльности<br>
+                    описание программы лояльности<br>
+                    описание программы лояльности<br>
+                    описание программы лояльности
+                </p>
             </div>
             <div class="item-tile">
                 <img class="item-tile-img" src="./icons/item-partners.svg" alt="item-tile">
+                <h2 class="title-partners replaceable-content-title">ПАРТНЕРЫ678</h2>
+                <p class="paragraph-partners replaceable-content">описание программы лояльности<br>
+                    описание программы лояльности<br>
+                    описание программы лояльности<br>
+                    описание программы лояльности
+                </p>
             </div>
             <div class="item-tile">
                 <img class="item-tile-img" src="./icons/item-partners.svg" alt="item-tile">
+                <h2 class="title-partners replaceable-content-title">ПАРТНЕРЫ567</h2>
+                <p class="paragraph-partners replaceable-content">описание программы лояльности<br>
+                    описание программы лояльности<br>
+                    описание программы лояльности<br>
+                    описание программы лояльности
+                </p>
             </div>
             <div class="item-tile">
                 <img class="item-tile-img" src="./icons/item-partners.svg" alt="item-tile">
+                <h2 class="title-partners replaceable-content-title">ПАРТНЕРЫ546</h2>
+                <p class="paragraph-partners replaceable-content">описание программы лояльности<br>
+                    описание программы лояльности<br>
+                    описание программы лояльности<br>
+                    описание программы лояльности
+                </p>
             </div>
             <div class="item-tile">
                 <img class="item-tile-img" src="./icons/item-partners.svg" alt="item-tile">
+                <h2 class="title-partners replaceable-content-title">ПАРТНЕРЫ345</h2>
+                <p class="paragraph-partners replaceable-content">описание программы лояльности<br>
+                    описание программы лояльности<br>
+                    описание программы лояльности<br>
+                    описание программы лояльности
+                </p>
             </div>
             <div class="item-tile">
                 <img class="item-tile-img" src="./icons/item-partners.svg" alt="item-tile">
+                <h2 class="title-partners replaceable-content-title">ПАРТНЕРЫ21321312</h2>
+                <p class="paragraph-partners replaceable-content">описание программы лояльности<br>
+                    описание программы лояльности<br>
+                    описание программы лояльности<br>
+                    описание программы лояльности
+                </p>
             </div>
             <div class="item-tile">
                 <img class="item-tile-img" src="./icons/item-partners.svg" alt="item-tile">
+                <h2 class="title-partners replaceable-content-title">ПАРТНЕРЫ</h2>
+                <p class="paragraph-partners replaceable-content">описание программы лояльности<br>
+                    описание программы лояльности<br>
+                    описание программы лояльности<br>
+                    описание программы лояльности
+                </p>
             </div>
             <div class="item-tile">
                 <img class="item-tile-img" src="./icons/item-partners.svg" alt="item-tile">
+                <h2 class="title-partners replaceable-content-title">ПАРТНЕРЫ233</h2>
+                <p class="paragraph-partners replaceable-content">описание программы лояльности<br>
+                    описание программы лояльности<br>
+                    описание программы лояльности<br>
+                    описание программы лояльности
+                </p>
             </div>
             <div class="item-tile">
                 <img class="item-tile-img" src="./icons/item-partners.svg" alt="item-tile">
+                <h2 class="title-partners replaceable-content-title">ПАРТНЕРЫ123</h2>
+                <p class="paragraph-partners replaceable-content">описание программы лояльности<br>
+                    описание программы лояльности<br>
+                    описание программы лояльности<br>
+                    описание программы лояльности
+                </p>
             </div>
         </div>
     </div>
@@ -336,10 +397,10 @@
         </div>
         <div class="footer__links">
             <div class="footer-item-link chapter">РАЗДЕЛЫ</div>
-            <div class="footer-item-link">ASGROUP</div>
-            <div class="footer-item-link">ФУНКЦИОНАЛ</div>
-            <div class="footer-item-link">КАК РАБОТАТЬ С МАГАЗИНАМИ</div>
-            <div class="footer-item-link">ПАРТНЕРЫ</div>
+            <div class="footer-item-link"><a class="link" href="#ASGROUP">ASGROUP</a></div>
+            <div class="footer-item-link"><a class="link" href="#functional">ФУНКЦИОНАЛ</a></div>
+            <div class="footer-item-link"><a class="link" href="#faq">КАК РАБОТАТЬ С МАГАЗИНАМИ</a></div>
+            <div class="footer-item-link"><a class="link" href="#partners">ПАРТНЁРЫ</a></div>
         </div>
         <div class="footer__download-rights">
             <img class="footer-download" src="./images/footerGooglePlay.png" alt="download">
